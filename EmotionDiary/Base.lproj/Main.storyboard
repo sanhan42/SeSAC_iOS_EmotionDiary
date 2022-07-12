@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oyk-zi-hCu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0h0-5z-I3A">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -289,16 +289,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFX-NN-M3i"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xV9-Dn-da2">
                                                 <rect key="frame" x="126" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiE-r4-Tb0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27o-dO-SGd">
                                                 <rect key="frame" x="252" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNv-em-nkz"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -309,16 +318,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="102" height="128"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ls0-Ha-YaH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpv-Cn-s7k">
                                                 <rect key="frame" x="126" y="0.0" width="102" height="128"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVv-yZ-3it"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ej-3V-cSa">
                                                 <rect key="frame" x="252" y="0.0" width="102" height="128"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="INm-rX-IcK"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -329,16 +347,25 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lQI-5M-hha"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86j-Zs-Rkf">
                                                 <rect key="frame" x="126" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dpi-MC-9wi"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oH3-DW-FOS">
                                                 <rect key="frame" x="252" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PEc-i7-pR2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -376,11 +403,21 @@
                         <outletCollection property="emotionLableList" destination="uNJ-VD-SEI" collectionClass="NSMutableArray" id="z6f-iU-fCW"/>
                         <outletCollection property="emotionLableList" destination="V34-xz-SEj" collectionClass="NSMutableArray" id="voE-PF-6wP"/>
                         <outletCollection property="emotionLableList" destination="FOH-mS-zqu" collectionClass="NSMutableArray" id="xUL-Z3-UYm"/>
+                        <outletCollection property="emotionButtonList" destination="53w-lx-ISe" collectionClass="NSMutableArray" id="1uG-RL-KjN"/>
+                        <outletCollection property="emotionButtonList" destination="xV9-Dn-da2" collectionClass="NSMutableArray" id="8Ep-oj-X0O"/>
+                        <outletCollection property="emotionButtonList" destination="27o-dO-SGd" collectionClass="NSMutableArray" id="ko3-np-4Au"/>
+                        <outletCollection property="emotionButtonList" destination="EnM-8K-1Uf" collectionClass="NSMutableArray" id="DXE-18-dtu"/>
+                        <outletCollection property="emotionButtonList" destination="cpv-Cn-s7k" collectionClass="NSMutableArray" id="Y0b-B7-qfU"/>
+                        <outletCollection property="emotionButtonList" destination="0ej-3V-cSa" collectionClass="NSMutableArray" id="Jhg-AK-beB"/>
+                        <outletCollection property="emotionButtonList" destination="xa7-c0-zsj" collectionClass="NSMutableArray" id="7lc-cy-VuD"/>
+                        <outletCollection property="emotionButtonList" destination="86j-Zs-Rkf" collectionClass="NSMutableArray" id="yNT-Sf-JBf"/>
+                        <outletCollection property="emotionButtonList" destination="oH3-DW-FOS" collectionClass="NSMutableArray" id="9IO-dj-Niv"/>
+                        <segue destination="3kP-WI-FIx" kind="show" id="OIT-mP-BFi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="917" y="98"/>
+            <point key="canvasLocation" x="296" y="46"/>
         </scene>
         <!--수업 시간 같이-->
         <scene sceneID="b6O-G3-9ed">
@@ -579,13 +616,14 @@
                     <connections>
                         <outlet property="emotionFisrtLabel" destination="kvk-2B-NEg" id="Da6-4j-eff"/>
                         <outlet property="firstButton" destination="Xx9-Kz-DUq" id="hNi-FS-I7B"/>
+                        <segue destination="5l0-sp-arI" kind="show" id="hGs-rg-1cm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpY-A7-eHb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928.98550724637687" y="789.50892857142856"/>
+            <point key="canvasLocation" x="1062" y="46"/>
         </scene>
-        <!--View Controller-->
+        <!--테스트-->
         <scene sceneID="kaY-fI-qed">
             <objects>
                 <viewController id="5l0-sp-arI" sceneMemberID="viewController">
@@ -688,10 +726,11 @@
                             <constraint firstAttribute="trailing" secondItem="pkE-Wo-3so" secondAttribute="trailing" constant="30" id="mUO-fa-imJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="테스트" id="5CC-uP-c53"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XUI-YL-Xbb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1860" y="102"/>
+            <point key="canvasLocation" x="1835" y="46"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OAA-IV-qEF">
@@ -709,25 +748,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZr-Np-6UN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="3tL-q9-fx8">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Oyk-zi-hCu" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fuc-Xk-Mti">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="3kP-WI-FIx" kind="relationship" relationship="rootViewController" id="Ft3-s8-YAl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R4f-za-TKu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="789.50892857142856"/>
+            <point key="canvasLocation" x="-559" y="46"/>
         </scene>
     </scenes>
     <resources>
