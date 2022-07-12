@@ -385,7 +385,7 @@
         <!--수업 시간 같이-->
         <scene sceneID="b6O-G3-9ed">
             <objects>
-                <viewController id="3kP-WI-FIx" sceneMemberID="viewController">
+                <viewController id="3kP-WI-FIx" customClass="testViewController" customModule="EmotionDiary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="loe-ni-zMO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,6 +400,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="VXy-qt-mJI"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NlN-B4-jBi">
                                         <rect key="frame" x="31" y="110.5" width="41.5" height="20.5"/>
@@ -414,6 +417,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="7PN-V8-asf"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc9-d9-xZd">
                                         <rect key="frame" x="31" y="248.5" width="41.5" height="20.5"/>
@@ -428,6 +434,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="zWm-cg-flK"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q94-hJ-5eM">
                                         <rect key="frame" x="31" y="386.5" width="41.5" height="20.5"/>
@@ -447,6 +456,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="wS9-RX-gm7"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQv-MY-ggK">
                                         <rect key="frame" x="31" y="110.5" width="41.5" height="20.5"/>
@@ -461,6 +473,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="rFr-es-Usc"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKI-Y3-4as">
                                         <rect key="frame" x="31" y="248.5" width="41.5" height="20.5"/>
@@ -475,8 +490,67 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="Fiw-gP-MYG"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-cl-TwW">
+                                        <rect key="frame" x="31" y="386.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="bZz-QP-Os4">
+                                <rect key="frame" x="36" y="244.5" width="103.5" height="407"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xx9-Kz-DUq">
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="103.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Xx9-Kz-DUq" secondAttribute="height" multiplier="1:1" id="ahS-vj-uUw"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="3dG-J1-1bo"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvk-2B-NEg">
+                                        <rect key="frame" x="31" y="110.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0i-oQ-f7H">
+                                        <rect key="frame" x="0.0" y="138" width="103.5" height="103.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="s0i-oQ-f7H" secondAttribute="height" multiplier="1:1" id="NLW-r2-Spc"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="A6v-nu-8wW"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfB-M3-Ubb">
+                                        <rect key="frame" x="31" y="248.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsG-M9-din">
+                                        <rect key="frame" x="0.0" y="276" width="103.5" height="103.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="tsG-M9-din" secondAttribute="height" id="Jr6-wl-qpj"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="sesac_slime1"/>
+                                        <connections>
+                                            <action selector="emotionButtonClicked:" destination="3kP-WI-FIx" eventType="touchUpInside" id="sZ1-4z-Sq6"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfg-xJ-uwy">
                                         <rect key="frame" x="31" y="386.5" width="41.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -488,20 +562,24 @@
                         <viewLayoutGuide key="safeArea" id="Bza-PO-c7S"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bZz-QP-Os4" firstAttribute="width" secondItem="fpn-pk-OrR" secondAttribute="width" id="5dv-Dn-3eC"/>
                             <constraint firstItem="nQl-oW-Eie" firstAttribute="height" secondItem="fpn-pk-OrR" secondAttribute="height" id="8Rn-ct-IWi"/>
                             <constraint firstItem="fpn-pk-OrR" firstAttribute="centerY" secondItem="loe-ni-zMO" secondAttribute="centerY" id="Iji-AV-1RW"/>
                             <constraint firstItem="fpn-pk-OrR" firstAttribute="centerX" secondItem="loe-ni-zMO" secondAttribute="centerX" id="LWc-Aw-vip"/>
                             <constraint firstItem="nQl-oW-Eie" firstAttribute="leading" secondItem="fpn-pk-OrR" secondAttribute="trailing" constant="16" id="Uia-zL-47f"/>
+                            <constraint firstItem="bZz-QP-Os4" firstAttribute="centerY" secondItem="fpn-pk-OrR" secondAttribute="centerY" id="Vfb-6l-6gH"/>
                             <constraint firstItem="nQl-oW-Eie" firstAttribute="centerY" secondItem="fpn-pk-OrR" secondAttribute="centerY" id="bOr-LE-52D"/>
                             <constraint firstItem="fpn-pk-OrR" firstAttribute="width" secondItem="loe-ni-zMO" secondAttribute="width" multiplier="0.25" id="cDx-7Z-bbi"/>
                             <constraint firstItem="nQl-oW-Eie" firstAttribute="width" secondItem="fpn-pk-OrR" secondAttribute="width" id="cw7-U0-ue4"/>
+                            <constraint firstItem="bZz-QP-Os4" firstAttribute="height" secondItem="fpn-pk-OrR" secondAttribute="height" id="ufy-Do-zMQ"/>
+                            <constraint firstItem="fpn-pk-OrR" firstAttribute="leading" secondItem="bZz-QP-Os4" secondAttribute="trailing" constant="16" id="zQ2-12-mgs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="수업 시간 같이" id="jev-U3-chS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpY-A7-eHb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="789.50892857142856"/>
+            <point key="canvasLocation" x="928.98550724637687" y="789.50892857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kaY-fI-qed">
@@ -622,12 +700,30 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="3kP-WI-FIx" kind="relationship" relationship="rootViewController" id="unk-rL-8gE"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="h4V-9U-pJl"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZr-Np-6UN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3tL-q9-fx8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Oyk-zi-hCu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fuc-Xk-Mti">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3kP-WI-FIx" kind="relationship" relationship="rootViewController" id="Ft3-s8-YAl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R4f-za-TKu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="789.50892857142856"/>
         </scene>
     </scenes>
     <resources>

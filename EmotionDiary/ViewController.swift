@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         for i in 0...8 {
-            emotionLableList[i].text = emotionName[i] + String(emotionNum[i])
+            emotionLableList[i].text = emotionName[i] + "\(emotionNum[i])"
         }
         // Do any additional setup after loading the view.
     }
