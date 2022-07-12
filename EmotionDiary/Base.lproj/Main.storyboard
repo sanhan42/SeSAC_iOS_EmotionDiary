@@ -59,7 +59,7 @@
                                                             <constraint firstAttribute="width" secondItem="deh-Jb-jF3" secondAttribute="height" multiplier="1:0.928" id="VR9-Fp-Ybx"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-oV-FGQ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사랑해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-oV-FGQ">
                                                         <rect key="frame" x="25" y="101.5" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -85,7 +85,7 @@
                                                             <constraint firstAttribute="width" secondItem="bYb-uK-Ren" secondAttribute="height" multiplier="1:0.928" id="rai-GW-TFU"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3y-iO-UMG">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="좋아해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3y-iO-UMG">
                                                         <rect key="frame" x="25" y="101.5" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -117,7 +117,7 @@
                                                             <constraint firstAttribute="width" secondItem="mRu-4O-0l2" secondAttribute="height" multiplier="1:0.928" id="HjG-5O-BvG"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2B-cl-yN2">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당황해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2B-cl-yN2">
                                                         <rect key="frame" x="25" y="102" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -145,7 +145,7 @@
                                                             <constraint firstAttribute="width" secondItem="V0X-Ho-COa" secondAttribute="height" multiplier="1:0.928" id="azq-yK-DRr"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgO-77-NeQ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="속상해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgO-77-NeQ">
                                                         <rect key="frame" x="25" y="102" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -171,7 +171,7 @@
                                                             <constraint firstAttribute="width" secondItem="WzP-vh-79l" secondAttribute="height" multiplier="1:0.928" id="NnX-Lu-MRE"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l26-Qp-ibW">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우울해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l26-Qp-ibW">
                                                         <rect key="frame" x="25" y="102" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -203,7 +203,7 @@
                                                             <constraint firstAttribute="width" secondItem="Zdm-z0-0mn" secondAttribute="height" multiplier="1:0.928" id="2yP-c3-4si"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNJ-VD-SEI">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="심심해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNJ-VD-SEI">
                                                         <rect key="frame" x="25" y="101.5" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -231,7 +231,7 @@
                                                             <constraint firstAttribute="width" secondItem="92b-sz-gTI" secondAttribute="height" multiplier="1:0.928" id="Cdk-cB-ALm"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V34-xz-SEj">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="피곤해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V34-xz-SEj">
                                                         <rect key="frame" x="25" y="101.5" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -257,7 +257,7 @@
                                                             <constraint firstAttribute="width" secondItem="Yjj-xI-CXG" secondAttribute="height" multiplier="1:0.928" id="WA2-Rf-bG9"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOH-mS-zqu">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="걱정해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOH-mS-zqu">
                                                         <rect key="frame" x="25" y="101.5" width="52.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
@@ -289,6 +289,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="감정 다이어리" id="lfo-o6-JaB"/>
+                    <connections>
+                        <outletCollection property="emotionLableList" destination="5Lj-KN-g11" collectionClass="NSMutableArray" id="z4q-vY-kbP"/>
+                        <outletCollection property="emotionLableList" destination="kGD-oV-FGQ" collectionClass="NSMutableArray" id="bpH-WF-3Az"/>
+                        <outletCollection property="emotionLableList" destination="R3y-iO-UMG" collectionClass="NSMutableArray" id="Hj8-Qh-qLQ"/>
+                        <outletCollection property="emotionLableList" destination="J2B-cl-yN2" collectionClass="NSMutableArray" id="uIM-4r-by1"/>
+                        <outletCollection property="emotionLableList" destination="rgO-77-NeQ" collectionClass="NSMutableArray" id="Kqz-lU-Bcd"/>
+                        <outletCollection property="emotionLableList" destination="l26-Qp-ibW" collectionClass="NSMutableArray" id="eTt-4c-EGm"/>
+                        <outletCollection property="emotionLableList" destination="uNJ-VD-SEI" collectionClass="NSMutableArray" id="z6f-iU-fCW"/>
+                        <outletCollection property="emotionLableList" destination="V34-xz-SEj" collectionClass="NSMutableArray" id="voE-PF-6wP"/>
+                        <outletCollection property="emotionLableList" destination="FOH-mS-zqu" collectionClass="NSMutableArray" id="xUL-Z3-UYm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
