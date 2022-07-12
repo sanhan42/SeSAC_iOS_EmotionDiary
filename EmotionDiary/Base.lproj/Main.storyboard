@@ -577,6 +577,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="수업 시간 같이" id="jev-U3-chS"/>
                     <connections>
+                        <outlet property="emotionFisrtLabel" destination="kvk-2B-NEg" id="Da6-4j-eff"/>
                         <outlet property="firstButton" destination="Xx9-Kz-DUq" id="hNi-FS-I7B"/>
                     </connections>
                 </viewController>
