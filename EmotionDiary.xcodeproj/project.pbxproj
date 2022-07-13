@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF065609287CFD2300B5F1F0 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF065608287CFD2300B5F1F0 /* testViewController.swift */; };
+		BF509974287E66D200898325 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF065608287CFD2300B5F1F0 /* testViewController.swift */; };
 		BFF2D92E287CC600006CF78B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D92D287CC600006CF78B /* AppDelegate.swift */; };
 		BFF2D930287CC600006CF78B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D92F287CC600006CF78B /* SceneDelegate.swift */; };
 		BFF2D932287CC600006CF78B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2D931287CC600006CF78B /* ViewController.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF065608287CFD2300B5F1F0 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = testViewController.swift; path = ../../testViewController.swift; sourceTree = "<group>"; };
+		BF065608287CFD2300B5F1F0 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
 		BFF2D92A287CC600006CF78B /* EmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF2D92D287CC600006CF78B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF2D92F287CC600006CF78B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF509974287E66D200898325 /* testViewController.swift in Sources */,
 				BFF2D932287CC600006CF78B /* ViewController.swift in Sources */,
 				BFF2D92E287CC600006CF78B /* AppDelegate.swift in Sources */,
-				BF065609287CFD2300B5F1F0 /* testViewController.swift in Sources */,
 				BFF2D930287CC600006CF78B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
