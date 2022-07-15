@@ -31,8 +31,8 @@
                                                             <constraint firstAttribute="width" secondItem="Wew-bC-0WZ" secondAttribute="height" multiplier="1:0.928" id="QNb-42-Osa"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lj-KN-g11">
-                                                        <rect key="frame" x="25" y="101.5" width="52.5" height="18"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="행복해 100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lj-KN-g11">
+                                                        <rect key="frame" x="17" y="101.5" width="68.5" height="18"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -288,7 +288,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53w-lx-ISe">
                                                 <rect key="frame" x="0.0" y="0.0" width="102" height="127.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=""/>
                                                 <connections>
                                                     <action selector="emotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFX-NN-M3i"/>
                                                 </connections>
@@ -394,15 +394,15 @@
                     </view>
                     <navigationItem key="navigationItem" title="감정 다이어리" id="lfo-o6-JaB"/>
                     <connections>
-                        <outletCollection property="emotionLableList" destination="5Lj-KN-g11" collectionClass="NSMutableArray" id="z4q-vY-kbP"/>
-                        <outletCollection property="emotionLableList" destination="kGD-oV-FGQ" collectionClass="NSMutableArray" id="bpH-WF-3Az"/>
-                        <outletCollection property="emotionLableList" destination="R3y-iO-UMG" collectionClass="NSMutableArray" id="Hj8-Qh-qLQ"/>
-                        <outletCollection property="emotionLableList" destination="J2B-cl-yN2" collectionClass="NSMutableArray" id="uIM-4r-by1"/>
-                        <outletCollection property="emotionLableList" destination="rgO-77-NeQ" collectionClass="NSMutableArray" id="Kqz-lU-Bcd"/>
-                        <outletCollection property="emotionLableList" destination="l26-Qp-ibW" collectionClass="NSMutableArray" id="eTt-4c-EGm"/>
-                        <outletCollection property="emotionLableList" destination="uNJ-VD-SEI" collectionClass="NSMutableArray" id="z6f-iU-fCW"/>
-                        <outletCollection property="emotionLableList" destination="V34-xz-SEj" collectionClass="NSMutableArray" id="voE-PF-6wP"/>
-                        <outletCollection property="emotionLableList" destination="FOH-mS-zqu" collectionClass="NSMutableArray" id="xUL-Z3-UYm"/>
+                        <outletCollection property="emotionLabelList" destination="5Lj-KN-g11" collectionClass="NSMutableArray" id="z4q-vY-kbP"/>
+                        <outletCollection property="emotionLabelList" destination="kGD-oV-FGQ" collectionClass="NSMutableArray" id="bpH-WF-3Az"/>
+                        <outletCollection property="emotionLabelList" destination="R3y-iO-UMG" collectionClass="NSMutableArray" id="Hj8-Qh-qLQ"/>
+                        <outletCollection property="emotionLabelList" destination="J2B-cl-yN2" collectionClass="NSMutableArray" id="uIM-4r-by1"/>
+                        <outletCollection property="emotionLabelList" destination="rgO-77-NeQ" collectionClass="NSMutableArray" id="Kqz-lU-Bcd"/>
+                        <outletCollection property="emotionLabelList" destination="l26-Qp-ibW" collectionClass="NSMutableArray" id="eTt-4c-EGm"/>
+                        <outletCollection property="emotionLabelList" destination="uNJ-VD-SEI" collectionClass="NSMutableArray" id="z6f-iU-fCW"/>
+                        <outletCollection property="emotionLabelList" destination="V34-xz-SEj" collectionClass="NSMutableArray" id="voE-PF-6wP"/>
+                        <outletCollection property="emotionLabelList" destination="FOH-mS-zqu" collectionClass="NSMutableArray" id="xUL-Z3-UYm"/>
                         <outletCollection property="emotionButtonList" destination="53w-lx-ISe" collectionClass="NSMutableArray" id="1uG-RL-KjN"/>
                         <outletCollection property="emotionButtonList" destination="xV9-Dn-da2" collectionClass="NSMutableArray" id="8Ep-oj-X0O"/>
                         <outletCollection property="emotionButtonList" destination="27o-dO-SGd" collectionClass="NSMutableArray" id="ko3-np-4Au"/>
